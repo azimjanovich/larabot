@@ -50,7 +50,7 @@ const collapse = (isCollapse) => {
     <n-layout-sider @update:collapsed="collapse" :collapsed="details.collapse" :inverted="false" bordered show-trigger
         collapse-mode="width" :collapsed-width="64" :width="230" :native-scrollbar="false" class="h-screen shadow-sm">
         <a href="#" target="_blank" class="w-full flex items-center my-2 justify-center px-5">
-            <img src="../Assets/Images/logo-larabot.png" :class="details.collapse ? 'w-11' : 'w-1/2 pt-3'">
+            <img src="../Assets/Images/logo-larabot-short.png" :class="details.collapse ? 'w-11' : 'w-1/2 pt-3'">
         </a>
         <n-menu :collapsed-width="64" :collapsed-icon-size="22" :default-value="route().current()" :options="menuOptions"
             class="text-sm font-medium mt-2" />
